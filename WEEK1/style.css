@@ -1,0 +1,88 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url("image1.jpg") no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.7);
+    color: #e8e8e8fc;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+h1 {
+    margin-bottom: 5px;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+.container {
+    width: 80%;
+    margin: 30px auto;
+    background: rgba(245, 240, 225, 0.9); 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 15px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    font-size: 1.2em;
+    transition: background 0.3s;
+}
+
+li:hover {
+    background: rgba(0, 0, 0, 0.05);
+    transform: scale(1.02);
+    transition: 0.3s ease-in-out;
+}
+
+li span {
+    margin-right: 10px;
+    font-size: 1.5em;
+}
+
+.completed span {
+    color: maroon;
+}
+
+.incomplete span {
+    color: rgba(255, 68, 0, 0.51);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+    h1 {
+        font-size: 1.5em;
+    }
+    li {
+        padding: 10px;
+        font-size: 1em;
+    }
+}
+
+footer {
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
