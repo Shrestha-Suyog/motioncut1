@@ -56,14 +56,14 @@ li span {
 }
 
 .completed span {
-    color: maroon;
+    color: rgb(99, 2, 2);
 }
 
 .incomplete span {
-    color: rgba(255, 68, 0, 0.51);
+    color: rgba(4, 116, 0, 0.973);
 }
 
-/* Responsive Design */
+
 @media (max-width: 768px) {
     .container {
         width: 90%;
